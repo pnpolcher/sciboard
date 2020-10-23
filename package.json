@@ -1,0 +1,37 @@
+{
+  "name": "aetheris-canvas",
+  "version": "0.1.0",
+  "description": "A simple library to create and manipulate objects in a browser canvas.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "canvas",
+    "js",
+    "aetheris"
+  ],
+  "author": "Aetheris",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-external-helpers": "^7.12.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@lopatnov/rollup-plugin-uglify": "^2.1.0",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^2.32.1",
+    "serialize-javascript": "^3.1.0",
+    "terser": "^5.3.8"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
